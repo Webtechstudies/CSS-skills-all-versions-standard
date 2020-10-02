@@ -1,0 +1,1708 @@
+
+<p id="first-paragraph" class="introduction">This is a paragraph</p>
+
+<style>
+.introduction{
+	color: blue;
+}
+</style>
+
+
+<!--
+<span title="mytitle">This is a SPAN element</span>
+
+<style>
+ [title] {
+	color:red;
+}
+</style>
+
+
+<input id="input-text" type="text" placeholder="this is an input">
+<input id="input-text" type="text" placeholder="this is an input">
+
+<style type="text/css">
+#input-text {
+  border:3px solid green;
+}
+</style>
+-->
+
+
+
+
+
+
+<!--
+<button>Click me!</button>
+
+<style>
+button:focus{
+	transform:translateY(-10px);
+}
+</style>
+-->
+
+
+<!--
+<form action="process.php" method="post">
+	<label for="username">*Username</label><br>
+	<input name="username" pattern="[A-Za-z0-9\s]{6,30}" required><br>
+
+	<label for="email">*Email</label><br>
+	<input type="email" id="email" name="email" required><br><br>
+
+	<input type="submit" value="Send!">
+</form>
+
+<style>
+input:required{
+	border:1px solid red;
+}
+</style>
+-->
+
+
+
+<!--
+<form action="process.php" id="myform">
+  <label for="name">Name</label><br>
+  <input type="text" id="name" name="name" required><br>
+
+  <label for="email">Email</label><br>
+  <input type="email" id="email" name="email" required><br><br>
+
+  <input type="submit" value="Send">
+</form>
+
+<style>
+#myform label::before{
+	content:'*';
+	color:red;
+}
+</style>
+-->
+
+
+<!--
+<textarea name="secret-key"></textarea>
+
+<style>
+textarea::selection{
+	background-color: blue;
+	color:#fff;
+}
+</style>
+-->
+
+
+<!--
+<p>Lorem ipsum dolor sit amet...</p>
+
+<style>
+p::selection{
+	background-color: lightblue;
+	color:#fff;
+}
+</style>
+-->
+
+
+<!--
+<div id="content">
+	<h2>Little Red Riding Hood and the Wolf</h2>
+
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat.</p>
+</div>
+
+<style>
+#content p::first-letter{
+	font-size:30px;
+	color:#fff;
+	background-color:blue;
+}
+</style>
+-->
+
+
+<!--
+<div class="div-class" data-title="mytitle">This is a DIV.</div>
+
+<style>
+.div-class {
+  color: blue;
+}
+
+[data-title] {
+  color: darkblue;
+}
+
+[data-title='mytitle'] {
+  color: brown;
+}
+</style>
+-->
+
+<!--
+<section id="container">
+	<div class="introduction">
+		<h1>We are the best team for you!</h1>
+		<p>Lorem ipsum dolor sit amet...</p>
+	</div>
+</section>
+
+<style>
+section#container div.introduction p{
+	font-size:17px !important;
+}
+
+section#container div.introduction p{
+	font-size:20px !important;
+}
+</style>
+-->
+
+
+<!--
+<div class="description">
+	<h2 class="h2" id="desc-heading">This is a breadcumb</h2>
+</div>
+
+<style>
+.h2{
+	color: green;
+}
+
+#desc-heading{
+	color: blue;
+}
+</style>
+-->
+
+
+<!--
+<section id="content">
+	<div class="breadcumb">
+		<h1 style="color:red !important;">This is a breadcumb</h1>
+	</div>
+</section>
+-->
+
+
+<!--
+<style>
+*{
+	box-sizing: border-box;
+}
+
+.div1 {
+  width: 300px;
+  height: 100px;
+  border: 3px solid red;
+}
+
+.div2 {
+  width: 300px;
+  height: 100px;
+  padding: 50px;
+  border: 3px solid green;
+}
+</style>
+
+<div class="div1">This is a DIV.</div>
+<div class="div2">This is a DIV.</div>
+-->
+
+
+<!--
+<div id="warning">Warning!</div>
+
+<style>
+#warning {
+	position: absolute;
+    color: #721c24;
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+	padding: 10px;
+	text-align: center;
+	left: 100px;
+	width: calc(100% - 200px);
+}
+</style>
+-->
+
+
+<!--
+<div class="container">
+	<div class="col-1-8"></div>
+	<div class="col-2-8"></div>
+	<div class="col-2-8"></div>
+	<div class="col-2-8"></div>
+	<div class="col-1-8"></div>	
+</div>
+
+<style>
+.container div{
+	float: left;
+	height: 300px;
+	background: #05AC72;
+	border: 3px solid #000;
+}
+
+.col-1-8 {
+   width: calc(100% * 1 / 8);
+}
+
+.col-2-8 {
+   width: calc(100% * 2 / 8);
+}
+</style>
+-->
+
+
+
+<!--
+<ul>
+  <li><a href="/home">Home</a></li>
+  <li><a href="/blog">Blog</a></li>
+  <li><a href="/team">Team</a></li>
+</ul>
+
+<style>
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  background-color: #D047F4;
+}
+
+ul li {
+	display: inline-block;
+	padding: 20px 30px;
+}
+
+li a {
+	color: #fff;
+	text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+</style>
+-->
+
+
+<!--
+<div class="container">
+	<div class="left">
+	    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	    consequat. 
+	</div>
+
+	<div class="right">
+	 	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	    consequat. 
+	</div>
+</div>
+
+<style>
+.left {
+	width: 80%;
+	float: left;
+}
+
+.right {
+	width: calc(20% - 20px);
+	float: right;
+}
+
+.left, .right{
+	padding: 30px;
+	padding: 30px;
+	background: #05AC72;
+	color: white;
+}
+</style>
+-->
+
+
+<!--
+<style>
+.div1{
+	background-color:yellow;
+	position:relative;
+	width:300px;
+	height:300px;
+}
+
+.div2{
+	background-color:blue;
+	width:80px;
+	height:80px;
+	position:absolute;
+	left:50%;
+	top:0px;
+	transform: translateX(-50%);
+}
+</style>
+
+<div class="div1">
+	<div class="div2">
+	</div>
+</div>
+-->
+
+
+<!--
+<style>
+.purple{
+	background-color:#A45DE9;
+	position:relative;
+	width:400px;
+	height:200px;
+}
+
+.pink{
+	background-color:#FF91AE;
+	width:80px;
+	height:80px;
+	position:absolute;
+	left:0%;
+	bottom:50%;
+	transform: translateY(50%);
+}
+</style>
+
+<div class="purple">
+	<div class="pink">
+	</div>
+</div>
+-->
+
+<!--
+<style>
+.div1{
+	background-color:yellow;
+	position:relative;
+	width:300px;
+	height:300px;
+}
+
+.div2{
+	background-color:blue;
+	width:80px;
+	height:80px;
+	position:absolute;
+	right: 50%;
+	top: 50%;
+	transform: translate(50%,-50%);
+}
+</style>
+
+<div class="div1">
+	<div class="div2">
+	</div>
+</div>
+-->
+
+
+
+<!--
+<div id="container">
+  <div class="overlay">
+    <h1>THIS IS A TEXT</h1>
+  </div> 
+</div>
+
+<style>
+#container {
+	background: url("files/turtle.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	width: 100%;
+	height: 500px;
+}
+
+#container div.overlay {
+	background: rgba(0, 0, 0, 0.7);
+	width: 100%;
+	height: 100%;
+}
+
+#container h1 {
+	text-align: center;
+	padding-top: 250px;
+	color: #fff;
+}
+</style>
+-->
+
+
+<!--
+<div class="img-container">
+    <img src="files/turtle.jpg">
+</div>
+
+<style>
+.img-container{
+	width: 200px;
+	height:200px;
+}
+
+img {
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+}
+</style>
+-->
+
+
+
+
+<!-- 
+<article id="article">
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat.</p>
+</article>
+
+<style>
+#article p{
+	text-align: justify;
+}
+</style>
+-->
+
+
+<!--
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur.</p>
+
+<style>
+p{
+	font-family: Courier, monospace;
+	text-align: justify;
+}
+</style>
+-->
+
+<!--
+<h1>This is a heading</h1>
+
+<style>
+h1{
+	font-family: Roboto, sans-serif;
+}
+</style>
+-->
+
+<!--
+<table class="orders">
+    <tbody>
+        <tr class="head">
+            <td colspan="6">Orders</td>
+        </tr>
+        <tr>
+            <td>Id</td>
+            <td>Name</td>
+            <td>Age</td>
+            <td>Price</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Louis Abrahams</td>
+            <td>52</td>
+            <td>33.00</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>John Anderson</td>
+            <td>53</td>
+            <td>35.00</td>
+        </tr>   
+        <tr>
+            <td>7</td>
+            <td>Michael Anderson</td>
+            <td>82</td>
+            <td>40.00</td>
+        </tr>               
+    </tbody>
+</table>
+
+<style>
+.orders {
+    border: 1px solid black;
+    width: 600px;
+}
+.head td{
+    text-align:center;
+    font-weight:bold;
+    text-transform: uppercase;
+}
+</style>
+-->
+
+
+
+<!--
+<table class="customers">
+    <tbody>
+        <tr class="head">
+            <td colspan="5">OUR CUSTOMERS</td>
+        </tr>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Car</th>
+            <th>Location</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>John Doe</td>
+            <td>82</td>
+            <td>BMW</td>
+            <td>New York</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Robert Martins</td>
+            <td>13</td>
+            <td>Audi</td>
+            <td>Tokyo</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Irma D. Fisher</td>
+            <td>32</td>
+            <td>Volvo</td>
+            <td>Atlanta</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Sonia J. Shelton</td>
+            <td>51</td>
+            <td>Opel</td>
+            <td>Chicago</td>
+        </tr>
+    </tbody>
+</table>
+
+<style>
+.customers {
+	width: 600px;
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+.customers td ,.customers th {
+    border-right: 1px solid black;
+    text-align: left;
+}
+
+.head td{
+    text-align:center;
+    font-weight:bold;
+    border-bottom: 1px solid black;
+}
+</style>
+-->
+
+
+<!--
+<table class="customers">
+    <tbody>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Car</th>
+            <th>Location</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>John Doe</td>
+            <td>82</td>
+            <td>BMW</td>
+            <td>New York</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Robert Martins</td>
+            <td>13</td>
+            <td>Audi</td>
+            <td>Tokyo</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Irma D. Fisher</td>
+            <td>32</td>
+            <td>Volvo</td>
+            <td>Atlanta</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Sonia J. Shelton</td>
+            <td>51</td>
+            <td>Opel</td>
+            <td>Chicago</td>
+        </tr>
+    </tbody>
+</table>
+
+<style>
+.customers {
+	width: 600px;
+	border: 1px solid black;
+	border-collapse: collapse;
+	text-align: left;
+}
+
+.customers td , .customers tr {
+	padding-left: 5px;
+	border-bottom: 1px solid black;
+}
+</style>
+-->
+
+
+<!--
+<style>
+.customers {
+    width: 500px;
+    border-collapse: collapse;
+}
+
+.customers td {
+    border: 1px solid black;
+}
+
+
+.customers td:nth-child(even) {
+    background-color: #e6e6e6;
+}
+
+.head td{
+    text-align:center;
+    font-weight:bold;
+    text-transform: uppercase;
+}
+</style>
+
+
+
+<table class="customers">
+    <tbody>
+        <tr class="head">
+            <td colspan="6">Our customers</td>
+        </tr>
+        <tr>
+            <td>Id</td>
+            <td>Name</td>
+            <td>Age</td>
+            <td>Car</td>
+            <td>Location</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>John Doe</td>
+            <td>82</td>
+            <td>BMW</td>
+            <td>New York</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Robert Martins</td>
+            <td>13</td>
+            <td>Audi</td>
+            <td>Tokyo</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Irma D. Fisher</td>
+            <td>32</td>
+            <td>Volvo</td>
+            <td>Atlanta</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Sonia J. Shelton</td>
+            <td>51</td>
+            <td>Opel</td>
+            <td>Chicago</td>
+        </tr>
+    </tbody>
+</table>
+-->
+
+
+<!--
+<div class="table-container">
+	<table class="customers">
+	    <tbody>
+	        <tr>
+	            <th>Id</th>
+	            <th>Name</th>
+	            <th>Age</th>
+	            <th>Car</th>
+	            <th>Location</th>
+	        </tr>
+	        <tr>
+	            <td>1</td>
+	            <td>John Doe</td>
+	            <td>82</td>
+	            <td>BMW</td>
+	            <td>New York</td>
+	        </tr>
+	        <tr>
+	            <td>2</td>
+	            <td>Robert Martins</td>
+	            <td>13</td>
+	            <td>Audi</td>
+	            <td>Tokyo</td>
+	        </tr>
+	        <tr>
+	            <td>3</td>
+	            <td>Irma D. Fisher</td>
+	            <td>32</td>
+	            <td>Volvo</td>
+	            <td>Atlanta</td>
+	        </tr>
+	        <tr>
+	            <td>4</td>
+	            <td>Sonia J. Shelton</td>
+	            <td>51</td>
+	            <td>Opel</td>
+	            <td>Chicago</td>
+	        </tr>
+	    </tbody>
+	</table>
+</div>
+
+<style>
+.customers {
+	width: 500px;
+	border: 1px solid black;
+	border-collapse: collapse;
+	text-align: left;
+}
+
+.customers td{
+    padding-left: 6px;
+    border: 1px solid black;
+}
+
+.table-container{
+	overflow-x:scroll;
+}
+</style>
+-->
+
+
+<!--
+<style>
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  overflow: hidden;
+  background-color: #7C4800;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  padding: 15px 15px;
+}
+
+li a:hover {
+  background-color: #111;
+}
+</style>
+
+<ul>
+  <li><a href="/home">Home</a></li>
+  <li><a href="/portfolio">Portfolio</a></li>
+  <li><a href="/team">Team</a></li>
+</ul>
+-->
+
+
+<!--
+<div>
+  <div class="box green"></div>
+  <div class="box blue"></div>
+  <div class="box green"></div>
+  <div class="box blue"></div>
+  <div class="box green"></div>
+  <div class="box blue"></div>
+</div>
+
+<style>
+.box {
+  float: left;
+  padding: 45px;
+  width: 33.33%;
+}
+
+.blue{
+	background-color:blue;
+}
+
+.green{
+	background-color:green;
+}
+</style>
+-->
+
+
+
+<!--
+<div class="container">
+  <div class="img-cont">
+  	<img src="files/tiger.jpg">
+  </div>
+  <div class="img-cont">
+  	<img src="files/turtle.jpg">
+  </div>
+  <div class="img-cont">
+  	<img src="files/guinea_pig.jpg">
+  </div>
+</div>
+
+<style>
+.img-cont {
+  float: left;
+  width: 33.33%;
+  height: 200px;
+  padding: 5px;
+}
+
+img{
+	width:100%;
+	height:100%;
+	object-fit: cover;
+}
+</style>
+-->
+
+
+<!--
+<style>
+body{
+	margin:0;
+}
+
+div{
+	color:#fff;
+	padding:20px;
+	margin:5px;
+	background-color: #AA00B9;
+}
+
+.content{
+	float:left;
+	width:calc(100vw * 1 / 4 - 10px);
+}
+
+.sidebar{
+	float:right;
+	width:calc(100vw * 3 / 4 - 10px);
+}
+</style>
+
+<div class="content">
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et. 
+</div>
+
+
+<div class="sidebar">
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. 
+</div>
+-->
+
+
+<!--
+<h3 class="h3">This is a heading</h3>
+
+<style>
+.h3{
+	color: #FFBD33;
+}
+ 
+.h3{
+	color: #FFB;
+}
+</style>
+-->
+
+<!--
+<progress id="video" value="35" max="100"></progress>
+
+<style>
+#video{
+	cursor:progress;
+}
+</style>
+
+
+
+
+<button>Click me!</button>
+
+<style>
+button{
+	cursor: pointer;
+	background-color: #fff;
+	color: #A45DE9;
+    border: 3px solid #A45DE9;
+    padding: .5rem .8rem;
+    border-radius: 2rem;
+}
+
+button:hover {
+	animation: effect 1s ease infinite;
+}
+
+@keyframes effect {
+	0% {
+		transform: translateY(-8px);
+	}
+	50% {
+		transform: translateY(-6px);
+	}
+	100% {
+		transform: translateY(-8px);
+	}
+}
+</style>
+-->
+
+
+
+<!--
+<div class="container" >
+	<img src="images/sparrow.jpg">
+</div>
+
+<style>
+.container{
+	width:400px;
+	height:300px;
+	overflow:hidden;
+}
+
+img{
+	width:100%;
+	height:300px;
+	object-fit:cover;
+	transition:0.5s;
+}
+
+img:hover{
+	transform: scale(1.25) rotate(10deg);
+}	
+</style>
+-->
+
+
+<!--
+<div class="container" >
+	<img src="images/fox.jpg">
+</div>
+
+<style>
+.container{
+	width:400px;
+	height:300px;
+	overflow:hidden;
+}
+
+img{
+	width:100%;
+	height:300px;
+	object-fit:cover;
+	transition:0.5s;
+}
+
+img:hover{
+	transform: scale(1.2) rotate(9deg);
+}	
+</style>
+-->
+
+
+<!--
+<div class="container">
+	<img src="images/tiger.jpg">
+</div>
+
+<style>
+.container{
+	width:500px;
+	height:400px;
+	overflow:hidden;
+}
+
+img{
+	width:100%;
+	height:400px;
+	object-fit:cover;
+	transition:0.5s;
+}
+
+img:hover{
+	transform: scale(1.2);
+}	
+</style>
+-->
+
+
+<!--
+<div class="rectangle rectangle2"></div>
+<div class="rectangle"></div>
+<div class="rectangle rectangle3"></div>
+
+<style>
+.rectangle {
+	width: 50px;
+	height: 50px;
+	background: #04396B;
+	display: inline-block;
+	margin:30px;
+}
+
+.rectangle2 {
+	opacity: 0.5;
+}
+
+.rectangle3 {
+	opacity: 0.2;
+}
+</style>
+-->
+
+
+<!--
+<button class="effect">Click me!</button>
+
+<style>
+button {
+	cursor: pointer;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    padding: .5rem .8rem;
+    font-size: 1rem;
+    transition-duration: 1s;
+}
+
+.effect:hover{
+	box-shadow: 0 0 7px rgba(0, 0, 0, 0.6);
+}
+</style>
+-->
+
+
+<!--
+<button>Click me!</button>
+
+<style>
+button{
+	cursor: pointer;
+	background-color: #fff;
+	color: #A45DE9;
+    border: 3px solid #A45DE9;
+    padding: .5rem .8rem;
+    border-radius: 2rem;
+}
+
+button:hover {
+  	animation: effect 0.3s linear infinite;
+}
+
+@keyframes effect {
+  50% {
+    transform: translateX(3px) rotate(3deg);
+  }
+  100% {
+    transform: translateX(-3px) rotate(-3deg);
+  }
+}
+</style>
+-->
+
+
+<!--
+<button>Click me!</button>
+
+<style>
+button{
+	cursor: pointer;
+	background-color: #FF91AE;
+	color: #fff;
+	border:none;
+    padding: .5rem .8rem;
+    position: relative;
+	transform: perspective(1px) translateZ(0);
+}
+
+button::after {
+	content: "";
+	background: #A45DE9;
+	position: absolute;
+	z-index: -1;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	transition:0.5s ease;
+	transform: scale(1);
+}
+
+button:active::after {
+	transform: scale(0);
+}
+</style>
+-->
+
+
+<!--
+<button>
+	Download it! <i class="fa fa-arrow-circle-o-down"></i>
+</button>
+
+<style>
+button{
+	cursor: pointer;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    padding: .5rem .8rem;
+	border-radius:4px;
+}
+
+button:hover i{
+  	animation: effect 1s linear 1;
+}
+
+@keyframes effect {
+	0% {
+		opacity: 0;
+	}
+	60% {
+		opacity: 0;
+		transform: translateY(-100%);
+	}
+	61%,
+	100% {
+		opacity: 1;
+	}
+}
+</style>
+-->
+
+
+<!--
+<button>Click me!</button>
+
+<style>
+button{
+	cursor: pointer;
+	background-color: #A45DE9;
+	color: #fff;
+	border:none;
+    padding: .5rem .8rem;
+    position: relative;
+}
+
+button::after {
+	content: "";
+	position: absolute;
+	left: 100%;
+	bottom: 0;
+	right: 0;
+	background: #FF91AE;
+	height: 3px;
+	transition: 0.5s ease;
+}
+
+button:hover::after{
+	left: 0;
+}
+</style>
+-->
+  
+
+<!--
+<div class="container" >
+	<img src="images/cat.jpg">
+</div>
+
+<style>
+.container{
+	display: inline-block;
+	width:200px;
+	height:200px;	
+	overflow: hidden;
+	border-radius: 50%;
+	position: relative;
+}
+
+img{
+	width:200px;
+	height:200px;
+	border-radius: 50%;
+	object-fit:cover;
+}
+
+.container::after{
+	content: "";
+	width: 220px;
+	height: 220px;
+	background: blue;
+	position: absolute;
+	top:150px;
+	left:150px;
+	transform:rotate(45deg);
+	transition:2s;
+}
+
+.container:hover::after{
+	transform:translate(-160px, -160px) rotate(45deg);
+}
+</style>
+-->
+
+
+<!--
+<div class="grid-container">
+	<div>El1</div>
+	<div>El2</div>
+	<div>El3</div>
+	<div>El4</div>
+	<div>El5</div>
+	<div>El6</div> 
+	<div>El7</div>
+	<div>El8</div> 
+</div>
+
+<style>
+.grid-container {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-auto-rows:100px;
+}
+
+.grid-container div {
+  background-color: #9966C5;
+  border: 1px solid #000;
+  font-size: 25px;
+  padding: 15px;
+  text-align: center;
+}
+</style>
+-->
+
+
+<!--
+<div class="grid-container">
+	<div>El1</div>
+	<div>El2</div>
+	<div>El3</div>
+	<div>El4</div>
+	<div>El5</div>
+	<div>El6</div> 
+	<div>El7</div> 
+	<div>El8</div> 
+</div>
+
+<style>
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2,50%);
+  grid-auto-rows:100px;
+  grid-row-gap: 20px;
+}
+
+.grid-container div {
+  background-color: #9966C5;
+  border: 1px solid #000;
+  font-size: 25px;
+  padding: 30px;
+  text-align: center;
+}
+</style>
+-->
+
+
+<!--
+<div class="grid-container">
+	<div>
+		<div>Top</div>
+		<div>Content</div>
+		<div>Bottom</div>
+	</div>
+	<div>
+		<div>Top</div>
+		<div>Content</div>
+		<div>Bottom</div>
+	</div>
+	<div>
+		<div>Top</div>
+		<div>Content</div>
+		<div>Bottom</div>
+	</div>
+</div>
+
+<style>
+.grid-container {
+	display: grid;
+	grid-template-columns: 33% 33% 33%;
+}
+
+.grid-container > div {
+	background-color: blue;
+	border: 1px solid #000;
+	font-size: 25px;
+	padding: 15px;
+	text-align: center;
+}
+
+.grid-container > div > div{
+	padding: 20px;
+}
+
+.grid-container > div > div:nth-child(odd){
+	background-color: yellow;
+}
+</style>
+-->
+
+
+<!--
+<div class="grid-container">
+  <div class="el1">El1</div>
+  <div class="el2">El2</div>
+  <div class="el3">El3</div>
+  <div class="el4">
+  	<div>1</div>
+  	<div>2</div>
+  	<div>3</div>
+  	<div>4</div>
+  </div>
+</div>
+
+<style>
+.grid-container {
+	display: grid;
+	grid-template-columns: 50% 50%;
+	grid-auto-rows:200px;
+}
+
+.grid-container div {
+	background-color: #ff7417;
+	border: 1px solid #000;
+	font-size: 25px;
+	padding: 15px;
+	text-align: center;
+}
+
+.el4{
+	display:grid;
+	grid-template-columns: 50% 50%;
+}
+</style>
+-->
+
+
+<!--
+<div class="grid-container">
+	<div class="el1">El1</div>
+	<div class="el2">El2</div>
+	<div class="el3">El3</div>
+	<div class="el4">El4</div>
+	<div class="el5">El5</div>
+	<div class="el6">El6</div>
+	<div class="el7">El7</div>
+	<div class="el8">El8</div>
+	<div class="el9">El9</div>
+</div>
+
+<style>
+.grid-container {
+	display: grid;
+    grid-gap: 10px;
+    grid-template-columns: auto 200px auto;
+}
+
+.grid-container div {
+	background-color: #ff7417;
+	border: 1px solid #000;
+	font-size: 25px;
+	padding: 15px;
+	text-align: center;
+}
+</style>
+-->
+
+
+
+<!--
+<div class="grid-container">
+	<div class="header">Header</div>
+	<div class="content">Content</div>
+	<div class="sidebar">Sidebar</div>
+	<div class="footer">Footer</div>
+</div>
+
+<style>
+.grid-container {
+	display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(3,200px);
+	grid-template-areas:
+		"header header header"
+		"content . sidebar"
+		"footer footer footer";
+}
+
+.grid-container div {
+	background-color: #ff7417;
+	border: 1px solid #000;
+	font-size: 25px;
+	padding: 15px;
+	text-align: center;
+}
+
+.sidebar { grid-area: sidebar; }
+.content { grid-area: content; }
+.header { grid-area: header; }
+.footer { grid-area: footer; }
+</style>
+-->
+
+
+<!--
+<div class="grid-container">
+	<div class="header">Header</div>
+	<div class="content">Content</div>
+	<div class="sidebar">Sidebar</div>
+	<div class="footer">Footer</div>
+</div>
+
+<style>
+.grid-container {
+	display: grid;
+    grid-template-columns: repeat(4,150px);
+    grid-template-areas:
+	    "header header header header"
+	    "content content content sidebar"
+	    "footer footer footer footer";
+}
+
+.grid-container div {
+	background-color: #19B5FE;
+	border: 1px solid #000;
+	font-size: 30px;
+	padding: 20px;
+	text-align: center;
+}
+
+.sidebar { grid-area: sidebar; }
+.content { grid-area: content; }
+.header { grid-area: header; } 
+.footer { grid-area: footer; }
+</style>
+-->
+
+
+
+<!--
+<div class="grid-container">
+	<div>1</div>
+	<div>2</div>
+	<div>3</div>
+	<div>4</div>
+	<div>5</div>
+	<div>6</div>
+	<div>7</div>
+</div>
+
+<style>
+.grid-container {
+	display: grid;
+    grid-template-columns: 150px 150px 150px;
+    grid-auto-rows: 100px;
+}
+
+.grid-container div {
+	border: 1px solid #000;
+	font-size: 25px;
+	padding: 15px;
+	background-color: blue;
+	text-align: center;
+}
+
+.grid-container::before {
+    content: "";
+    background-color: yellow;
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.grid-container::after {
+    content: "";
+    background-color: yellow;
+    grid-column: 2;
+    grid-row: 3;
+}
+</style>
+-->
+
+
+<!--
+<div>
+  <div class="box yellow"></div>
+  <div class="box blue"></div>
+  <div class="box yellow"></div>
+  <div class="box blue"></div>
+  <div class="box yellow"></div>
+  <div class="box blue"></div>
+</div>
+
+<style>
+.box {
+	float: left;
+	padding: 70px;
+	width: 33.33%;
+}
+
+.blue{
+	background-color:blue;
+}
+
+.yellow{
+	background-color:yellow;
+}
+
+@media(max-width:768px){
+	.box {
+		width: 100%;
+		float: none;
+	}
+}
+</style>
+-->
+
+
+<!--
+<div class="flex-container">
+  <div>El1</div>
+  <div>El2</div>
+  <div>El3</div>
+  <div>El4</div>
+  <div>El5</div>
+  <div>El6</div>
+</div>
+
+<style>
+.flex-container {
+	display: flex;
+	flex-direction: column-reverse;
+	flex-wrap: wrap-reverse;
+	background-color: #9966C5;
+	height: 300px;
+}
+
+.flex-container div {
+	background-color: #FF91AE;
+	margin: 20px;
+	padding: 15px;
+	font-size: 25px;
+}
+</style>
+-->
+
+
+<!--
+<div class="flex-container">
+  <div>El1</div>
+  <div>El2</div>
+  <div>El3</div>
+  <div>El4</div>
+</div>
+
+<style>
+.flex-container {
+	display: flex;
+	flex-direction: column-reverse;
+	justify-content: flex-end;
+	background-color: #9966C5;
+	height: 700px;
+}
+
+.flex-container div {
+	background-color: #FF91AE;
+	margin: 20px;
+	padding: 15px;
+	font-size: 25px;
+}
+</style>
+-->
+
+
+<!--
+<div class="flex-container">
+  <div class="w1">Elem 1</div>
+  <div class="w2">Elem 2</div>
+  <div class="w3">Elem 3</div>
+</div>
+
+<style>
+.flex-container {
+	display: flex;
+	align-items: center;
+	flex-direction: row-reverse;
+	background-color: #9966C5;
+	height:500px;
+}
+
+.flex-container div {
+	background-color: #FF91AE;
+	margin: 13px;
+	padding: 20px;
+	font-size: 30px;
+}
+
+.w1 { flex-grow: 1; }
+.w2 { flex-grow: 3; }
+.w3 { flex-grow: 2; }
+</style>
+-->
+
